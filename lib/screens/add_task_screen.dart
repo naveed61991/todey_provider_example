@@ -9,7 +9,7 @@ class AddTaskScreen extends StatelessWidget {
     String newTaskTitle = "Default value";
 
     return Container(
-      color: Color.fromARGB(255, 117, 117, 117),
+      color: const Color.fromARGB(255, 117, 117, 117),
       child: Container(
         padding: const EdgeInsets.all(20.0),
         decoration: const BoxDecoration(
